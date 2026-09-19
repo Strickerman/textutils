@@ -33,3 +33,19 @@ def character_count(text: str) -> int:
         return 0
     
     return len(text)
+
+def reverse(text: str) -> str:
+    """Reverse a string.
+    
+    Parameters
+    ----------
+    text : str
+        The input string to reverse.
+    
+    Returns
+    -------
+    str
+        The string reversed.
+    """
+
+    return text[::-1]
