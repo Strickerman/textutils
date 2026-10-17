@@ -1,5 +1,5 @@
 import pytest
-from textutils.casing import capitalize_words
+from textutils.textutils.casing import capitalize_words
 
 
 @pytest.mark.parametrize(

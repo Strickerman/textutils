@@ -1,5 +1,5 @@
 import pytest
-from textutils.transform import character_count, reverse, word_count
+from textutils.textutils.transform import character_count, reverse, word_count
 
 
 # --- character_count ---
