@@ -10,7 +10,15 @@ def capitalize_words(text: str) -> str:
     -------
     str
         The string with each word capitalized.
+
+    Raises
+    ------
+    TypeError
+        If text is not a string.
     """
+    if not isinstance(text, str):
+        raise TypeError("text must be a string")
+
     words = text.split(" ")
     words_capitalised = []
 
