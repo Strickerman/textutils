@@ -1,0 +1,23 @@
+[project]
+name = "textutils"
+version = "0.1.0"
+description = "A utility package for text manipulation and analysis."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.coverage.run]
+source = ["textutils"]
+branch = true
