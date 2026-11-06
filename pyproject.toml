@@ -1,10 +1,19 @@
+# --- AJOUTER CETTE SECTION EN HAUT DU FICHIER ---
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "textutils"
+name = "textutils" # Pense à vérifier la disponibilité sur PyPI !
 version = "0.1.0"
 description = "A utility package for text manipulation and analysis."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = []
+
+# --- AJOUTER CETTE SECTION POUR DETECTER LE DOSSIER INTERNE ---
+[tool.setuptools.packages.find]
+where = ["textutils"]
 
 [tool.black]
 line-length = 88
@@ -17,7 +26,7 @@ select = ["E", "F", "W", "I"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["textutils"]
+pythonpath = ["textutils/textutils"]
 
 [tool.coverage.run]
 source = ["textutils"]

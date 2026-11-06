@@ -1,6 +1,5 @@
 import pytest
-from textutils.textutils.casing import capitalize_words
-
+from textutils.casing import capitalize_words
 
 @pytest.mark.parametrize(
     "text, expected",
