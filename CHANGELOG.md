@@ -16,3 +16,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial release of `textutils`.
 - Added `word_count()`, `character_count()`, `reverse()`, and `capitalize_words()`.
 - Implemented unit test suite with `pytest`.
+
+## [0.2.1] - 2026-11-10
+
+### Fixed
+- Fixed setuptools package discovery in `pyproject.toml` to properly include the `textutils` package layout.
