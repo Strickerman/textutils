@@ -12,7 +12,7 @@ jobs:
       id-token: write
     environment:
       name: pypi
-      url: https://pypi.org/p/textutils
+      url: https://pypi.org/p/textutils-strickerman
 
     steps:
       - uses: actions/checkout@v4
