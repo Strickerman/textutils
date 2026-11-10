@@ -35,7 +35,7 @@ select = ["E", "F", "W", "I"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["textutils"]
+pythonpath = ["."]
 
 [tool.coverage.run]
 source = ["textutils"]
